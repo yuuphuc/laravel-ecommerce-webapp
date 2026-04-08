@@ -72,24 +72,42 @@ Username: user1
 Password: 123456
 # Project Structure
 laravel-ecommerce-webapp/
+
 ├── app/
+
 │ ├── Models/ # Product, Order, User...
+
 │ ├── Http/
+
 │ │ └── Controllers/ # Admin & Client controllers
+
 │
+
 ├── routes/
+
 │ └── web.php # Web routes
+
 │
+
 ├── resources/
+
 │ └── views/
+
 │ ├── admin/ # Admin UI
+
 │ └── client/ # Client UI
+
 │
+
 ├── database/
+
 │ ├── migrations/ # Database schema
+
 │ └── seeders/ # Sample data
+
 │
 ├── public/ # Assets (CSS, JS)
+
 └── .env # Environment config
  
 # Future Improvements
