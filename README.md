@@ -71,17 +71,26 @@ Admin Account
 Username: user1
 Password: 123456
 # Project Structure
-app/
- ├── Models (Product, Order, User...) 
- ├── Controllers (Admin & Client)
-routes/
- ├── web.php
-resources/views/
- ├── admin/
- ├── client/
-database/
- ├── migrations/
- ├── seeders/
+laravel-ecommerce-webapp/
+├── app/
+│ ├── Models/ # Product, Order, User...
+│ ├── Http/
+│ │ └── Controllers/ # Admin & Client controllers
+│
+├── routes/
+│ └── web.php # Web routes
+│
+├── resources/
+│ └── views/
+│ ├── admin/ # Admin UI
+│ └── client/ # Client UI
+│
+├── database/
+│ ├── migrations/ # Database schema
+│ └── seeders/ # Sample data
+│
+├── public/ # Assets (CSS, JS)
+└── .env # Environment config
  
 # Future Improvements
 Customer authentication (login/register)
@@ -94,6 +103,3 @@ Debug errors
 Improve UI components
 Suggest implementation ideas
 Ensured understanding of logic before applying AI-generated code
-# Author
-Your Name
-GitHub: https://github.com/yuuphuc
