@@ -1,0 +1,28 @@
+<?php
+
+namespace App\View\Components;
+
+use App\Models\Brand;
+use Closure;
+use Illuminate\Contracts\View\View;
+use Illuminate\View\Component;
+
+class BrandMenu extends Component
+{
+    /**
+     * Create a new component instance.
+     */
+    public $brands;
+    public function __construct()
+    {
+        $this->brands = Brand::orderBy('brandname')->get();
+    }
+
+    /**
+     * Get the view / contents that represent the component.
+     */
+    public function render(): View|Closure|string
+    {
+        return view('components.brand-menu');
+    }
+}
