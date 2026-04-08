@@ -21,19 +21,19 @@ Frontend: Blade Template, Bootstrap 5
 Database: MySQL
 Tools: Vite, DataTables
 Architecture: MVC (Model - View - Controller)
-## Key Features
-## Admin Panel
+# Key Features
+# Admin Panel
 Manage Categories, Brands, Products
 Manage Customers & Orders
 Upload multiple product images
 Role-based authorization (Admin/User)
 Dashboard overview
-🛒 Client Side
+## Client Side
 Browse products by category/brand
 Product search & detail view
 Add to cart / update / delete items
 Checkout and create orders
-🧠 What I Learned
+# What I Learned
 Applied MVC architecture in real project
 Built CRUD system with Laravel
 Implemented authentication & authorization
@@ -82,6 +82,7 @@ resources/views/
 database/
  ├── migrations/
  ├── seeders/
+ 
 # Future Improvements
 Customer authentication (login/register)
 Order history for users
