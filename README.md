@@ -72,7 +72,7 @@ Username: user1
 Password: 123456
 # Project Structure
 app/
- ├── Models (Product, Order, User...)
+ ├── Models (Product, Order, User...) 
  ├── Controllers (Admin & Client)
 routes/
  ├── web.php
